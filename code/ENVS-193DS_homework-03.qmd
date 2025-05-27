@@ -1,0 +1,76 @@
+---
+title: "ENVS-193DS_homework-03"
+format: html
+name: "Linnea Lauffer"
+date: "2025-05-28"
+link: "https://github.com/linnea-lauffer/ENVS-193DS_homework-03.git"
+---
+
+# Set Up
+
+```{r Set Up}
+#| message: false # use this to make sure messages don't show up
+#| warning: false # use this to make sure warnings don't show up
+#| toc: true # use this to display a table of contents
+
+# load packages 
+library(tidyverse)
+library(here)
+library(gt)
+library(janitor)
+
+my_data <- read_csv(here("data","Personal Data.csv")) # reading in my csv file from the data folder and storing it as an object named my_data
+```
+
+
+# Problem 1. Personal Data
+
+## a. 
+
+I could calculate the mean total hours of sleep for both work nights and non-work nights to compare how my sleep duration varies. This is informative, as I expect that on work nights I may sleep less as I have a night time job and have classes in the late morning, and comparing the average sleep time helps me evaluate how my work schedule affects my rest. 
+
+## b. 
+
+```{r}
+my_data_clean <- my_data |> # starting data frame
+  clean_names() # clean column names
+
+sleep_summary <- my_data_clean |> # start with cleaned data
+  mutate(work_night = as.factor(work_night)) |> # convert work_night column to a factor (categorical variable)
+  group_by(work_night) |> # group the data by work_night
+  summarise(mean_sleep = mean(total_sleep_hours)) # calculate mean of total_sleep_hours for each group
+
+ggplot(data = my_data_clean, # starting data frame
+       aes(x = work_night, # x axis as type of night
+           y = total_sleep_hours)) + # y axis as total sleep hours 
+  stat_summary(fun = mean, # show bar representing the mean
+                geom = "bar",
+                fill = "plum",
+                width = 0.6) + 
+  geom_jitter(width = 0.2, alpha = 0.6, color = "black", size = 1.5) + # show individual data points
+  labs(x = "Work Night", y = "Total Sleep (hours)",
+       title = "Comparison of Total Sleep Between Work and Non-Work Nights") + # relabel axes
+  theme_minimal() # apply a clean theme 
+```
+
+## c. 
+
+## d. 
+
+# Problem 2. Affective Visualization
+
+## a. 
+
+## b. 
+
+## c. 
+
+## d. 
+
+# Problem 3. Statistical Critique
+
+## a.
+
+## b. 
+
+## c. 
