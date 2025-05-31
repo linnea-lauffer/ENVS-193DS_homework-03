@@ -75,14 +75,11 @@ sleep_summary |> # starting data frame
 
 ## a. 
 
+The affective visualization for my data would look like a forest, with each night of sleep represented by a tree. The height of each tree would show how many hours I sleep, and the tree's color would reflect the noise level that night. Red dots or "berries" on each tree would represent the caffeine intake. Dashed lines in the trunk would indicate it was a work night, representing rough bark. The trees would be arranged in date order to form a landscape that visually represents my sleep over time. 
+
 ## b. 
 
 ## c. 
-
-```{r}
-
-```
-
 
 ## d. 
 
