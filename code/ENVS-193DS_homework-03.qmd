@@ -55,7 +55,11 @@ ggplot(data = my_data_clean, # starting data frame
 
 ## c. 
 
+**Figure: Average total sleep hours by work night status.** Bars represent the mean total sleep duration (in hours) on work nights and non-work nights. Individual data points are shown as jittered black dots to illustrate the distribution of sleep duration. 
+
 ## d. 
+
+
 
 # Problem 2. Affective Visualization
 
