@@ -55,11 +55,21 @@ ggplot(data = my_data_clean, # starting data frame
 
 ## c. 
 
-**Figure: Average total sleep hours by work night status.** Bars represent the mean total sleep duration (in hours) on work nights and non-work nights. Individual data points are shown as jittered black dots to illustrate the distribution of sleep duration. 
+**Figure 1: Average total sleep hours by work night status.** Bars represent the mean total sleep duration (in hours) on work nights and non-work nights. Individual data points are shown as jittered black dots to illustrate the distribution of sleep duration. 
 
 ## d. 
-
-
+```{r}
+sleep_summary |> # starting data frame
+  mutate(mean_sleep = round(mean_sleep, 1)) |>  # round to 1 decimal place
+  gt() |> # create a gt table
+  cols_label( # rename the columns
+    work_night = "Work Night", # change 'work_night' to 'Work Night'
+    mean_sleep = "Mean Total Sleep (hours)" # change 'mean_sleep' to 'Mean Total Sleep (hours)'
+  ) |>
+  tab_header( # add a title to the top of the table
+    title = "Mean Total Sleep Hours by Work Night Status"
+  )
+```
 
 # Problem 2. Affective Visualization
 
