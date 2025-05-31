@@ -65,6 +65,11 @@ ggplot(data = my_data_clean, # starting data frame
 
 ## c. 
 
+```{r}
+
+```
+
+
 ## d. 
 
 # Problem 3. Statistical Critique
