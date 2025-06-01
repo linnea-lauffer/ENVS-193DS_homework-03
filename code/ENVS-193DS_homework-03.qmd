@@ -99,4 +99,6 @@ The authors use a generalized linear model to investigate the ecological and ant
 
 ## b. 
 
+The figure effectively communicates the statistical results by displaying fitted model curves alongside individual data points. The use of a gray shaded area to represent the 95% confidence interval provides a clear visual cue for uncertainty in the model estimates. The axes are logically positioned and appropriately labeled, with the y-axis showing the proportion of area damage and the x-axes showing relevant predictor variables. 
+
 ## c. 
