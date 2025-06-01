@@ -83,7 +83,11 @@ The affective visualization for my data would look like a forest, with each nigh
 
 ## c. 
 
+![Affective Visualization Draft](../images/draft.jpg)
+
 ## d. 
+
+"Sleep Forest" is a visual metaphor that transforms my nightly sleep data into a living ecosystem of trees. Each tree represents one night of sleep, with its height corresponding to total sleep duration, leaf color reflecting noise levels (green for quiet, yellow for moderate), caffeine consumption appearing as small red berries (each berry equal to one ounce of caffeine), and work nights are portrayed with rough, textured bark, while non-work nights have smooth, calm outlines. This pieces is inspired by the natural storytelling of the Dear Data project and the emotional, science-based artwork of Jill Pelto. I created the visualization digitally using an iPad, focusing on a natural tree shape and fine textural details. My process involved mapping sleep metrics to symbolic visual elements, sketching out tree designs, and then rendering each one. The final work invited viewers to experience sleep as something dynamic and alive, a forest that breathes and changes with each day. 
 
 # Problem 3. Statistical Critique
 
