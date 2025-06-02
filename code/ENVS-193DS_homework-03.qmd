@@ -6,7 +6,8 @@ format:
   html:
     toc: true
     toc-location: left
-    toc-floating: true
+    toc-float: true
+
 ---
 **GitHub Repository:** [https://github.com/linnea-lauffer/ENVS-193DS_homework-03.git](https://github.com/linnea-lauffer/ENVS-193DS_homework-03.git)
 
