@@ -83,11 +83,12 @@ The affective visualization for my data would look like a forest, with each nigh
 
 ## b. 
 
-![Sleep Forest Sketch](../images/sketch.jpg)
+![](images/sketch.jpg)
+
 
 ## c. 
 
-![Affective Visualization Draft](../images/draft.jpg)
+![]/images/draft.jpg)
 
 ## d. 
 
@@ -99,7 +100,7 @@ The affective visualization for my data would look like a forest, with each nigh
 
 The authors use a generalized linear model to investigate the ecological and anthropogenic factors that influence the intensity of elephant crop damage on individual farms in the Selous-Niassa Wildlife Corridor. The response variable is the proportion of a farm damaged by elephants, and the predictor variables include: distance to water bodies, proportion of preferred crops, percent open and closed woodland in 1 $km^2$ around the farm, percent of nearby settlements/farms in 1 $km^2$ around the farm, and percent refuge in 1 $km^2$ around each farm. This model allows the authors to identify which landscape or land-use variables are significantly associated with the severity of elephant damage. 
 
-![](../images/figure_crop_damage.jpg)
+![](images/figure_crop_damage.jpg)
 
 ## b. 
 
