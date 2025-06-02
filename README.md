@@ -5,4 +5,4 @@ Data Folder (data/): Contains the personal sleep data file Pesonal Sleep.csv. Th
 
 Code Folder (code/): Contains the Quarto document ENVS-193DS_homework-03.qmd, which includes all code for data analysis, visualization and output rendering. All data processing and plotting is done in R via the Quarto document. 
 
-The rendered HTML version of the homework can be accessed here:
+The rendered HTML version of the homework can be accessed here: https://linnea-lauffer.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html
