@@ -93,7 +93,7 @@ The affective visualization for my data would look like a forest, with each nigh
 
 ## a.
 
-The authors use a generalized linear model to investigate the ecological and anthropogenic factors that influence the intensity of elephant crop damage on individual farms in the Selous-Niassa Wildlife Corridor. The response variable is the proportion of a farm damaged by elephants, and the predictor variables include: distance to water bodies, proportion of preferred crops, percent open and closed woodland in 1 km^2 around the farm, percent of nearby settlements/farms in 1 km^2 around the farm, and percent refuge in 1 km^2 around each farm. This model allows the authors to identify which landscape or land-use variables are significantly associated with the severity of elephant damage. 
+The authors use a generalized linear model to investigate the ecological and anthropogenic factors that influence the intensity of elephant crop damage on individual farms in the Selous-Niassa Wildlife Corridor. The response variable is the proportion of a farm damaged by elephants, and the predictor variables include: distance to water bodies, proportion of preferred crops, percent open and closed woodland in 1 $km^2$ around the farm, percent of nearby settlements/farms in 1 $km^2$ around the farm, and percent refuge in 1 $km^2$ around each farm. This model allows the authors to identify which landscape or land-use variables are significantly associated with the severity of elephant damage. 
 
 ![](../images/figure_crop_damage.jpg)
 
@@ -103,4 +103,8 @@ The figure effectively communicates the statistical results by displaying fitted
 
 ## c. 
 
+The layout of the figure is minimal and focused, with each panel isolating a predictor variable with fitted model curves, individual points, and 95% confidence intervals shaded in grey. The use of consistent color choices and a clean white background help minimize visual clutter, although including every single data point (n=590) on each panel does make the figure a bit noisy. The data:ink ratio is high as all visual elements serve to communicate data directly, allowing the viewer to quickly compare patterns across variables without distraction. 
+
 ## d. 
+
+In order to make this figure better, I would suggest standardizing the x-axis range across all plots. This may not be possible for all, but at least the ones that are present in 1 $km^2$ around the farm such as Figure 2b, 2c, 2d, and 2f. This would help with cross-panel comparisons of the magnitude of crop damage, and avoiding the illusion of large differences caused by scale variation. Another suggestion is reducing the size of the individual data points. Some of the panels are especially noisy due to overlapping points. Smaller points would reduce visual congestion. 
