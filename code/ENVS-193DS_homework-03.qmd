@@ -1,10 +1,13 @@
 ---
 title: "ENVS-193DS_homework-03"
-format: html
 name: "Linnea Lauffer"
 date: "2025-05-28"
-**GitHub Repository:** "https://github.com/linnea-lauffer/ENVS-193DS_homework-03.git"
+format:
+  html:
+    toc: true
+    toc-float: true
 ---
+**GitHub Repository:** [https://github.com/linnea-lauffer/ENVS-193DS_homework-03.git](https://github.com/linnea-lauffer/ENVS-193DS_homework-03.git)
 
 # Set Up
 
